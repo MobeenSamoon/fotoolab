@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Product page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="Product-page">
+      <div class="product">
+        <div class="product-box">
+          <div class="all-images">
+            <div class="small-images">
+              <img src="./s1.jpg" onclick="clicking(this)" />
+              <img src="./s2.jpg" onclick="clicking(this)" />
+              <img src="./s3.jpg" onclick="clicking(this)" />
+              <img src="./s4.jpg" onclick="clicking(this)" />
+            </div>
+
+            <div class="main-images">
+              <img src="./s1.jpg" id="imagebox" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-title">
+        <div class="content">
+         
+          <h1 class="brand">Brand : kodak</h1>
+          <br>
+      <h2>Digital Cameras Instamatic graphic film Kodak graphy, Camera, camera Lens, photographic Film png
+      </h2>
+             <div class="picture">
+    <button  style="margin: 5px;"  onclick="downloadDivContent()"><i class="fa-solid fa-download"></i></button></div>
+    
+  <h3>About this item</h3>
+  <br>
+  <hr>
+  <ul>
+    <br>
+<li>ALL-IN-ONE PHOTOGRAPHY - The PRINTOMATIC Camera offers a combination of a powerful 5MP sensor with a wide angle f/2 lens that instantly prints vibrant photos.</li>
+<li>FAST EASY AND FUN – This Point and Shoot the camera speed allows you to shoot a new photo while printing the previous shot. It also comes equipped with a light sensor that will automatically turn on the flash in low-light settings</li>
+<li>ONE STOP PRINTING - The Kodak Printomatic camera instantly prints 2x3” photos. The camera uses Kodak Zink Photo Paper, so no ink cartridges, toners or film are needed. The photo prints are durable, water-resistant, tear resistant and smudge free</li>
+<li>INSTANT VALUE - Kodak Printomatic Camera is an easy-to-use product. Saves photos to a MicroSD card. No USB Cable Included.</li>
+  
+  
+  
+  
+  
+  
+  </ul>
+<br>
+      
+
+              <div class="review"> <span>
+              (4.6)
+              <span class="fa fa-star"></span>
+            </span>
+          </div>
+          <div class="price-box">
+            <p class="price">&#8360; 89,000</p>
+            <strike>&#8360; 90,000</strike>
+          </div>
+          <p>Quantity <input type="text" value="1" /></p>
+          <button>
+            <span class="fa fa-shopping-cart"></span>
+            Add to Cart
+          </button>
+          <button class="buy">
+            <span class="fa fa-shopping-cart"></span>
+            Buy now
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

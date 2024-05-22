@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Product page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="Product-page">
+      <div class="product">
+        <div class="product-box">
+          <div class="all-images">
+            <div class="small-images">
+              <img src="./s1.jpg" onclick="clicking(this)" />
+          
+              <img src="./s2.jpg" onclick="clicking(this)" />
+          
+              <img src="./s1.jpg" onclick="clicking(this)" />
+          
+              <img src="./s1.jpg" onclick="clicking(this)" />
+          
+            </div>
+
+            <div class="main-images">
+              <img src="./s1.jpg" id="imagebox" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-title">
+        <div class="content">
+          <h1 class="brand">Brand : Nikon </h1>
+          
+          <br>
+<h2>Nikon AF-S FX NIKKOR 200-500mm f/5.6E ED Vibration Reduction Zoom Lens with Auto Focus for Nikon DSLR Cameras</h2>      <div class="picture">
+        <button  style="margin: 5px;"  onclick="downloadDivContent()"><i class="fa-solid fa-download"></i></button></div>
+        
+ 
+        <h3>About this item</h3>
+        <br>
+        <hr>
+        <ul>
+          <br>
+  <li>Compact super telephoto zoom lens for birding, wildlife, motorsports, events and more
+    500 millimeter of zoom power on fx format DSLR; 750 millimeter equivalent on dx format DSLRs, minimum focus distance: 7.2 feet ( 2.2 meter), focal length range: 200 500 millimeter</li>
+    <li>4.5 stops of vibration reduction with sports mode. Approx. Weight 81.2 ounce. Approx. Dimensions (diameter x length) 4.2 inch x 10.5 inch( based on CIPA guidelines)</li>
+    <li>Af compatible with optional TC 14e series tele converters and DSLRs that offer f/8 support. Mount type: Nikon f bayonet</li>
+  
+  
+  
+  
+  
+  
+  </ul>
+<br>
+          <div class="review">
+            
+            <span>
+              (4.6)
+              <span class="fa fa-star"></span>
+            </span>
+          </div>
+          <div class="price-box">
+            <p class="price">&#8360; 25,000</p>
+            <strike>&#8360; 27,000</strike>
+          </div>
+          <p>Quantity <input type="text" value="1" /></p>
+          <button>
+            <span class="fa fa-shopping-cart"></span>
+            Add to Cart
+          </button>
+          <button class="buy">
+            <span class="fa fa-shopping-cart"></span>
+            Buy now
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

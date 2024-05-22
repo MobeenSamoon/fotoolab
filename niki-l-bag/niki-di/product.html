@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Product page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="Product-page">
+      <div class="product">
+        <div class="product-box">
+          <div class="all-images">
+            <div class="small-images">
+              <img src="./s1.jpg" onclick="clicking(this)" />
+              <img src="./s2.jpg" onclick="clicking(this)" />
+              <img src="./s3.jpg" onclick="clicking(this)" />
+              <img src="./s4.jpg" onclick="clicking(this)" />
+            </div>
+
+            <div class="main-images">
+              <img src="./s1.jpg" id="imagebox" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-title">
+        <div class="content">
+          <h1 class="brand">Brand : Nikon Dslr</h1>
+          
+          <br>
+<h2>Nikon COOLPIX L26 16.1 MP Digital Camera with 5x Zoom NIKKOR Glass Lens and 3-inch LCD (Red) (OLD MODEL)</h2>
+      <div class="picture">
+        <button  style="margin: 5px;"  onclick="downloadDivContent()"><i class="fa-solid fa-download"></i></button></div>
+        
+ 
+        <h3>About this item</h3>
+        <br>
+        <hr>
+        <ul>
+          <br>
+  
+          <li>24MP CMOS DXformat sensor
+          </li>
+          <li>4 frames per second continuous shooting
+          </li>
+          <li>11 AF points (with 3D tracking)
+          </li>
+          <li>ISO 100 6400 (plus ISO 12,800 equivalent Hi1 setting)
+          </li>
+          <li>Full HD 1080p video
+          </li>
+  
+  
+  
+  
+  
+  
+  </ul>
+<br>
+          <div class="review">
+            
+            <span>
+              (4.6)
+              <span class="fa fa-star"></span>
+            </span>
+          </div>
+          <div class="price-box">
+            <p class="price">&#8360; 10,000</p>
+            <strike>&#8360; 7,000</strike>
+          </div>
+          <p>Quantity <input type="text" value="1" /></p>
+          <button>
+            <span class="fa fa-shopping-cart"></span>
+            Add to Cart
+          </button>
+          <button class="buy">
+            <span class="fa fa-shopping-cart"></span>
+            Buy now
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

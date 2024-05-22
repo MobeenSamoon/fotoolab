@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotolab</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color:#eee">
+
+
+    <header class="header">
+        <div class="container">
+            <div class="header-main">
+                <div class="logo">
+                    <a href="./index.html">Fotolab</a>
+                </div>
+                <div class="open-nav-menu">
+                    <span></span>
+                </div>
+                <div class="menu-overlay">
+                </div>
+
+                <nav class="nav-menu">
+                    <div class="close-nav-menu">
+                        <img src="img/close.svg" alt="close">
+                    </div>
+
+
+
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#" data-toggle="sub-menu">Product <i class="plus"></i></a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="./sony.html">Sony</a></li>
+                                <li class="menu-item"><a href="./canon.html">Canon </a></li>
+                                <li class="menu-item"><a href="./kodak.html">Kodak </a></li>
+                                <li class="menu-item"><a href="./nikon.html">Nikon </a></li>
+                            </ul>
+
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#" data-toggle="sub-menu">Categories <i class="plus"></i></a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="./cameras.html">Cameras</a></li>
+                                <li class="menu-item"><a href="./bags.html">Bags</a></li>
+                                <li class="menu-item"><a href="./accessories.html">Mermory Cards & Accessories</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="./about.html">About</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="./comparison/compare.html">Compare</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img-1.jpg" alt="">
+                <!-- <div class="overlay"></div> -->
+
+            </div>
+            <div class="swiper-slide"><img src="./img-2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img-3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img-4.jpg" alt=""></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="container-fluid p-4">
+        <div data-aos="fade-up" data-aos-duration="600" class="row g-md-4  gy-sm-8
+ banner-container">
+
+            <div data-aos="slide-left" data-aos-duration="600" class="col-lg-3 col-md-6 order-lg-1 order-md-2 banner-1">
+                <a href=""><img src="./banner-1.webp" alt=""></a>
+            </div>
+            <div data-aos="fade-in" data-aos-duration="600" class="col-lg-6 col-md-12 order-lg-2 order-md-1 banner-1"><a
+                    href=""><img src="./banner-2.webp" alt=""></a></div>
+            <div data-aos="slide-right" data-aos-duration="600"
+                class="col-lg-3 col-md-6 order-lg-3 order-md-3 banner-1"><a href=""><img src="./banner-3.webp"
+                        alt=""></a></div>
+
+        </div>
+        <div class="container-fluid">
+            <h1 data-aos="fade-in" data-aos-duration="600" class="heading">Featured Products</h1>
+            <main class="main bd-grid">
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/img1.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Canon Dslr Camera</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$990.00</span>
+                            <span class="card__preci card__preci--now">$749.00</span>
+                        </div>
+                        <a href="canondslr/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/l2.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Canon slr Lense</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$990.00</span>
+                            <span class="card__preci card__preci--now">$749.00</span>
+                        </div>
+                        <a href="digi/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/pngegg (3).png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Canon Digital Camera</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$990.00</span>
+                            <span class="card__preci card__preci--now">$749.00</span>
+                        </div>
+                        <a href="canondigi/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/n1.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Nikon Dslr</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$10000</span>
+                            <span class="card__preci card__preci--now">$7000</span>
+                        </div>
+                        <a href="niki-dslr/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/n.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Nikon Digital Camera</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$10000</span>
+                            <span class="card__preci card__preci--now">$5000</span>
+                        </div>
+                        <a href="niki-di/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/n3.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Nikon Lense Bag</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$3000</span>
+                            <span class="card__preci card__preci--now">$2000</span>
+                        </div>
+                        <a href="niki-l-bag/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/n4.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Nikon Bag</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$5000</span>
+                            <span class="card__preci card__preci--now">$4000</span>
+                        </div>
+                        <a href="niki-bag/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/n5.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Nikon Lense</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$32000</span>
+                            <span class="card__preci card__preci--now">$25000</span>
+                        </div>
+                        <a href="niki-lense/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/img3.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Canon Printer</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$990.00</span>
+                            <span class="card__preci card__preci--now">$749.00</span>
+                        </div>
+                        <a href="printer/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/img4.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Canon Videography Camera</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$990.00</span>
+                            <span class="card__preci card__preci--now">$749.00</span>
+                        </div>
+                        <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/s3.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Kodak Instant Camera</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+                        <div>
+                            <span class="card__preci card__preci--before">$90.00</span>
+                            <span class="card__preci card__preci--now">$49.00</span>
+                        </div>
+                        <a href="Kodak Camera1/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/s1.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Sony Cable Led</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+                        <div>
+                            <span class="card__preci card__preci--before">$100</span>
+                            <span class="card__preci card__preci--now">$80</span>
+                        </div>
+                        <a href="cable/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/s2.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Sony bag</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+                        <div>
+                            <span class="card__preci card__preci--before">$300</span>
+                            <span class="card__preci card__preci--now">$200</span>
+                        </div>
+                        <a href="Sony Bag/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/s4.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Sony Digital Camera</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+                        <div>
+                            <span class="card__preci card__preci--before">$990.00</span>
+                            <span class="card__preci card__preci--now">$749.00</span>
+                        </div>
+                        <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/s6.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Sony Memory Card</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+                        <div>
+                            <span class="card__preci card__preci--before">$1000</span>
+                            <span class="card__preci card__preci--now">$500</span>
+                        </div>
+                        <a href="memory/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/s7.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Sony Security Camera</p>
+
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+                        <div>
+                            <span class="card__preci card__preci--before">$49,00</span>
+                            <span class="card__preci card__preci--now">$30,00</span>
+                        </div>
+                        <a href="security camera/product.html" class="card__icon"><ion-icon
+                                name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/s5.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Sony Camera</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+                        <div>
+                            <span class="card__preci card__preci--before">$990.00</span>
+                            <span class="card__preci card__preci--now">$749.00</span>
+                        </div>
+                        <a href="./Sony C 1/product.html" class="card__icon"><ion-icon
+                                name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/l1.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Lense</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+                        <div>
+                            <span class="card__preci card__preci--before">$990.00</span>
+                            <span class="card__preci card__preci--now">$749.00</span>
+                        </div>
+                        <a href="Lense/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+
+
+
+            </main>
+
+        </div>
+
+        <div class="row g-md-4  banner-container">
+
+            <div data-aos="slide-right" data-aos-delay="200" data-aos-duration="300"
+                class="col-lg-6 col-md-12 gy-4 order-md-2  banner-1"><img src="./banner-4.webp" alt=""></div>
+            <div data-aos="slide-left" data-aos-delay="200" data-aos-duration="300"
+                class="col-lg-6 col-md-12 gy-4 order-lg-2 order-md-1  banner-1"><img src="./banner-5.webp" alt=""></div>
+        </div>
+        <div class="container-fluid">
+
+            <h1 data-aos="fade-in" data-aos-duration="600" class="heading">Recommended Products</h1>
+            <main class="main bd-grid">
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/img5.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Tripod</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$.700</span>
+                            <span class="card__preci card__preci--now">$.500</span>
+                        </div>
+                        <a href="tripod/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/2.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>USB</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$.10</span>
+                            <span class="card__preci card__preci--now">$.5</span>
+                        </div>
+                        <a href="USB/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/img4.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Videography Flim</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$990.00</span>
+                            <span class="card__preci card__preci--now">$749.00</span>
+                        </div>
+                        <a href="Flim/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/3.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Studio</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$990.00</span>
+                            <span class="card__preci card__preci--now">$749.00</span>
+                        </div>
+                        <a href="studio/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/a.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Studio Light </p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$.700</span>
+                            <span class="card__preci card__preci--now">$.500</span>
+                        </div>
+                        <a href="studio light/product.html" class="card__icon"><ion-icon
+                                name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/s3.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Kodak Digital Camera</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$.10</span>
+                            <span class="card__preci card__preci--now">$.5</span>
+                        </div>
+                        <a href="Kodak Camera1/product.html" class="card__icon"><ion-icon
+                                name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/r1.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Kodak Reel</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$5</span>
+                            <span class="card__preci card__preci--now">$100</span>
+                        </div>
+                        <a href="Kodak Reel/product.html" class="card__icon"><ion-icon
+                                name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/sa1.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p> SanDisk Memory card</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$5</span>
+                            <span class="card__preci card__preci--now">$100</span>
+                        </div>
+                        <a href="smemory/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/k.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Kodak Digital Camera</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$33.00</span>
+                            <span class="card__preci card__preci--now">$44.00</span>
+                        </div>
+                        <a href="kodak camera 2/product.html" class="card__icon"><ion-icon
+                                name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/6.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Camera Case</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$33.00</span>
+                            <span class="card__preci card__preci--now">$44.00</span>
+                        </div>
+                        <a href="./case/product.html" class="card__icon"><ion-icon
+                                name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/img7.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Canon Bag</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$33.00</span>
+                            <span class="card__preci card__preci--now">$44.00</span>
+                        </div>
+                        <a href="Canon Bag/product.html" class="card__icon"><ion-icon
+                                name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/pngegg (6).png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>S</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$11.00</span>
+                            <span class="card__preci card__preci--now">$22.00</span>
+                        </div>
+                        <a href="speaker/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/sp1.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Speaker</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$33.00</span>
+                            <span class="card__preci card__preci--now">$44.00</span>
+                        </div>
+                        <a href="speaker/product.html" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="assets/img/b1.png" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>Canon Battery</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon"><ion-icon name="heart-outline"></ion-icon></a>
+
+                        <div>
+                            <span class="card__preci card__preci--before">$33.00</span>
+                            <span class="card__preci card__preci--now">$44.00</span>
+                        </div>
+                        <a href="Canon Battery/product.html" class="card__icon"><ion-icon
+                                name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+            </main>
+        </div>
+
+        <div data-aos="fade-up" data-aos-duration="250" class="container-2">
+            <img class="img-head"
+                src="https://raw.githubusercontent.com/emnatkins/cdn-codepen/main/LYJWgdK/LYJWgdK.mail.jpg"
+                alt="subscribe to email">
+            <h1 class="title">subscribe</h1>
+            <p class="description">subscribe to our newsletter & stay updated</p>
+            <div class="form-box">
+                <div class="input-main">
+
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <button class="submit" type="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div data-aos="fade-up" data-aos-duration="250" class="footer">
+        <div class="row footer-content">
+            <div class=" box col-lg-3 col-md-6">
+                <h4 class="footer-title">About</h4>
+                <p>The new hero pieces bring instant fashion credibility. Bright florals clash with camouflage prints.
+                </p>
+                <h4 class="footer-title">Follow us</h4>
+
+                <div class="social">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-rss"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class=" box col-lg-3 col-md-6">
+                <h4 class="footer-title">Informiton</h4>
+                <ul>
+                    <li><a href="#"></a>About us</li>
+                    <li><a href="#"></a>Services</li>
+                    <li><a href="#"></a>Delivery Informiton</li>
+                    <li><a href="#"></a>Privacy</li>
+                    <li><a href="#"></a>Terms & Conditions</li>
+                    <li><a href="#"></a>Return Policy</li>
+                </ul>
+            </div>
+            <div class=" box col-lg-3 col-md-6">
+                <h4 class="footer-title">My Account</h4>
+                <ul>
+                    <li><a href="#"></a>My Account</li>
+                    <li><a href="#"></a>Cart</li>
+                    <li><a href="#"></a>Checkout</li>
+                    <li><a href="#"></a>Contact</li>
+                    <li><a href="#"></a>Validation</li>
+                    <li><a href="#"></a>Stores</li>
+                </ul>
+            </div>
+            <div class=" box col-lg-3 col-md-6">
+                <h4 class="footer-title">Get in Touch</h4>
+                <p>
+                    <i class="fa fa-home"></i>
+                    Gulshan-e-Iqbal Block 13 D, Karachi, Pakistan.
+                </p>
+                <p>
+                    <i class="fa fa-phone"></i>
+                    (102) 8888 9999
+                </p>
+
+                <p>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:fotolab@mail.com">fotolab@mail.com</a>
+                </p>
+                <p>
+                    <i class="fa fa-fax"></i>
+                    (102) 8888 9999
+                </p>
+                <div>
+                    <img src="./payment.webp" alt="">
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                once: true
+            }
+        );
+    </script>
+</body>
+
+</html>

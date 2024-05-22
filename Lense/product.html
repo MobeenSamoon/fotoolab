@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Product page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="Product-page">
+      <div class="product">
+        <div class="product-box">
+          <div class="all-images">
+            <div class="small-images">
+          
+              <img src="./3.jpg" onclick="clicking(this)" />
+           
+              <img src="./4.jpg" onclick="clicking(this)" />
+              <img src="./5.jpg" onclick="clicking(this)" />
+              <img src="./6.jpg" onclick="clicking(this)" />
+            </div>
+
+            <div class="main-images">
+              <img src="./5.jpg" id="imagebox" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-title">
+        <div class="content">
+          <h1 class="brand">Brand : Fotolab</h1>
+          <br>
+          <h2>Fotolab Basics Circular Polarizer Camera Lens Filter - 52 mm</h2>
+          
+          <div class="picture">
+            <button  style="margin: 5px;"  onclick="downloadDivContent()"><i class="fa-solid fa-download"></i></button></div>
+  <h3>About this item</h3>
+  <br>
+  <hr>
+  <ul>
+    <br>
+<li>Circular polarizer--one of the most popular special-effect filters</li>
+<li>Deepens the intensity of blue skies; reduces or eliminates glare</li> 
+<li></li>
+  
+  
+  
+  </ul>
+<br>
+          <div class="review">
+            
+            <span>
+              (4.6)
+              <span class="fa fa-star"></span>
+            </span>
+          </div>
+          <div class="price-box">
+            <p class="price">&#8360; 25,000</p>
+            
+          </div>
+          <p>Quantity <input type="text" value="1" /></p>
+          <button>
+            <span class="fa fa-shopping-cart"></span>
+            Add to Cart
+          </button>
+          <button class="buy">
+            <span class="fa fa-shopping-cart"></span>
+            Buy now
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
